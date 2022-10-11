@@ -1,0 +1,20 @@
+{
+  "name": "nh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "evershop dev",
+    "install": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start",
+    "test": "jest --workspace=@evershop/core",
+    "cypress": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/core": "^2.0.0-alpha",
+    "antd": "^4.23.5"
+  }
+}
